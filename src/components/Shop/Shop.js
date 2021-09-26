@@ -26,7 +26,7 @@ setNames(newName);
 
    <div className="product-container row">
     {
-       products.map(product => <Product key ={product.key}
+       products.map((product,i) => <Product key ={i}
          product={product}
          handleAddToCart={handleAddToCart}
        
